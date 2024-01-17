@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/harrywang/HW1_382/starter'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _copy_str, symObjAddr: 0x0, symBinAddr: 0x100003CE4, symSize: 0x70 }
+  - { offsetInCU: 0x46, offset: 0x46, size: 0x8, addend: 0x0, symName: _copy_str, symObjAddr: 0x0, symBinAddr: 0x100003CE4, symSize: 0x70 }
+  - { offsetInCU: 0x87, offset: 0x87, size: 0x8, addend: 0x0, symName: _dot_prod, symObjAddr: 0x70, symBinAddr: 0x100003D54, symSize: 0x20 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _sort_nib, symObjAddr: 0x90, symBinAddr: 0x100003D74, symSize: 0x14 }
+  - { offsetInCU: 0x10B, offset: 0x10B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xA4, symBinAddr: 0x100003D88, symSize: 0x19C }
+...
